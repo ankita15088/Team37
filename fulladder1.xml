@@ -1,1 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<circuit>
+<output id="1">
+<gate id="5" type="XOR">
+<input type="input" id="3"></input>
+<input type="gate" id="1"></input>
+</gate>
+</output>
+
+<output id ="2">
+<gate id="3" type =" OR">
+<input type="gate" id="4"></input>
+<input type="gate" id="2"></input>
+</gate>
+</output>
+
+
+<gate id="1" type= "XOR">
+<input type="input" id="1"></input>
+<input type="input" id="2"></input>
+</gate>
+
+<gate id="4" type= "AND">
+<input type="input" id="3"></input>
+<input type ="gate" id="1"></input>
+</gate>
+
+<gate id="2" type=" AND">
+<input type="input" id="1"></input>
+<input type="input" id="2"></input>
+</gate>
+
+<input id="1"></input>
+<input id="2"></input>
+<input id="3"></input>
+</circuit>
